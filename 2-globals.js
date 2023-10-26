@@ -6,7 +6,7 @@
 //module - info about current module (file)
 //process - info about env where the program is beig executed
 
-console.log(__dirname)
+console.log(`CAMINHO: ${__filename}`)
 setTimeout(() => {
     console.log('hello world')
 }, 1000);
